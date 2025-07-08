@@ -107,14 +107,23 @@ main{
 }
 
 /*about*/
+.about-items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .about{
-    border-radius: 50px;
+    border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+    border: 2px solid rgb(242, 116, 116);
+    box-shadow: inset 4px 4px 4px 10px #bcbcbc, inset -4px -4px 10px #ffffff;
+    
 }
 
 .item-description{
-    font-weight: 600;
+    font-weight: 800;
+    
 }
 

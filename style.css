@@ -146,3 +146,29 @@ main section{
     gap: 24px;
 }
 
+/* resume section */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 25px;
+}
+
+.resume-download{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
